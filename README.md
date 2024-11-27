@@ -30,7 +30,7 @@ Follow the steps below to set up and run the application:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/ai-use-case-generator.git
+git clone https://github.com/AnshAg111/Multi-AI-Agent-System-for-Market-Research/tree/main
 ```
 
 ### 2. Set Up a Virtual Environment

@@ -92,46 +92,6 @@ def index():
 
         # Execute multi-agent system
         result = crew.kickoff(inputs={"url": company_url})
-    #     result = """
-
-    # Company Profile
-    # - Industry: Healthcare and Technology
-    # - Market Segment: Healthcare services, insurance, and technology solutions
-    # - Key Offerings: Claims management, clinical insights, healthcare data analytics, and customer engagement platforms.
-    # - Strategic Focus: Enhancing healthcare operations, improving patient outcomes, and delivering cost-efficient solutions.
-
-    # AI/ML Use Cases
-    # 1. Predictive Analytics for Patient Health:
-    #    - Use ML to predict patient risks for chronic diseases and provide preventative care recommendations.
-    # 2. AI-Powered Claims Processing:
-    #    - Automate insurance claims validation and fraud detection using Natural Language Processing (NLP).
-    # 3. Personalized Patient Engagement:
-    #    - Leverage Generative AI chatbots for real-time patient queries, appointment scheduling, and follow-ups.
-    # 4. Healthcare Data Analytics:
-    #    - Use LLMs to analyze unstructured clinical notes and generate actionable insights.
-    # 5. Clinical Decision Support:
-    #    - Develop AI models to recommend treatments based on patient history and clinical data.
-
-    # Resource Collection
-    # - Datasets:
-    #   - Kaggle: [Healthcare Analytics Dataset](https://www.kaggle.com/)
-    #   - HuggingFace: [Clinical BERT Pre-trained Models](https://huggingface.co/)
-    # - Pre-trained Models:
-    #   - TensorFlow Healthcare Models
-    #   - GPT-based clinical summarization tools
-    # - Code Repositories:
-    #   - GitHub: AI-Powered Claims Processing Repository (link)
-    #   - GitHub: Predictive Healthcare Analytics (link)
-
-    # Final Proposal
-    # - Top Priority Use Cases:
-    #   1. AI-Powered Claims Processing: Automate and enhance accuracy in insurance claims.
-    #   2. Predictive Analytics for Patient Health: Prevent diseases through early interventions.
-    #   3. Personalized Patient Engagement: Improve patient satisfaction and reduce workload.
-
-    # - Supporting Resources:
-    #   - Clinical datasets, GPT-based models for text summarization, and fraud detection algorithms.
-    # """
         
         # Render result template
         return render_template('result.html', result=result)
